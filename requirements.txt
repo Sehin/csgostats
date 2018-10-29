@@ -1,0 +1,4 @@
+jsondiff==1.1.2
+mysql-connector==2.1.6
+requests==2.20.0
+urllib3==1.24
