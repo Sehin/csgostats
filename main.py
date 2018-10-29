@@ -9,7 +9,7 @@ import time
 def main():
     dw = DataWorker()
     bot = TelegramBot(dw)
-    #oeoe
+
     thr1 = Thread(target=bot.polling)
     thr2 = Thread(target=dw.polling)
     thr1.start()

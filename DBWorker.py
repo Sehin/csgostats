@@ -2,10 +2,14 @@ import mysql.connector
 from datetime import datetime
 
 class DBWorker():
-    connection = mysql.connector.connect(user='root', password='root',
-                                      host='localhost',
-                                      database='csgostats',
-                                      auth_plugin='mysql_native_password')
+    # connection = mysql.connector.connect(user='root', password='root',
+    #                                   host='localhost',
+    #                                   database='csgostats',
+    #                                   auth_plugin='mysql_native_password')
+    connection = mysql.connector.connect(user='csgostats', password='csgostats',
+                                         host='db4free.net',
+                                         database='csgostats',
+                                         auth_plugin='mysql_native_password')
     def __init__(self):
         pass
 
