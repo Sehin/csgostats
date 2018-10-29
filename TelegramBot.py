@@ -142,8 +142,8 @@ class TelegramBot():
 
     def polling(self):
         while 1:
-            print('start cycle TB')
-            print(self.dataWorker.checker)
+            #print('start cycle TB')
+            #print(self.dataWorker.checker)
             for message in self.getMessages():
                 # userLogger.info("User " + str(message.chatId) + " send to bot: " + str(message.text))
                 # -----------------------------

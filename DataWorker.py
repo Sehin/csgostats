@@ -24,8 +24,8 @@ class DataWorker():
         # self.statUpdates.append(['205612692', stat])
 
         while 1:
-            print('start cycle DW')
-            print(self.statUpdates)
+            #print('start cycle DW')
+            #print(self.statUpdates)
             users = self.dbWorker.getActiveUsers()
             for user in users:
                 stat = self.steamAPI.getGameStats(user['steamToken'])
