@@ -172,7 +172,7 @@ class TelegramBot():
 
 
             #print(len(self.dataWorker.statUpdates))
-            print('TB: ' + str(self.dataWorker.statUpdates))
+            #print('TB: ' + str(self.dataWorker.statUpdates))
             while not self.dataWorker.statUpdates == []:
                 if len(self.dataWorker.statUpdates) > 0:
                     stat = self.dataWorker.statUpdates.pop()
